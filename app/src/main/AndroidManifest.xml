@@ -12,10 +12,10 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".Activities.avtivities.login.SignInActivity"
+            android:name=".Activities.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.avtivities.MainActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
