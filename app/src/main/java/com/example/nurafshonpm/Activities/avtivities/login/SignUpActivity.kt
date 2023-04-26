@@ -1,4 +1,4 @@
-package com.example.nurafshonpm.Activities
+package com.example.nurafshonpm.Activities.avtivities.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
