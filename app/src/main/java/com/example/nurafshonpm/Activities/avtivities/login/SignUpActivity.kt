@@ -9,4 +9,6 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
     }
+
+    //I am on the comment of Sign Up
 }
