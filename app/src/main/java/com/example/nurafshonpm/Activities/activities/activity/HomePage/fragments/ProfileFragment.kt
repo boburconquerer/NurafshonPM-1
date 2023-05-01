@@ -1,10 +1,13 @@
 package com.example.nurafshonpm.Activities.activities.activity.HomePage.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
+import com.example.nurafshonpm.Activities.activities.activity.profile.TimeManagementActivity
 import com.example.nurafshonpm.R
 
 class ProfileFragment : Fragment() {
@@ -15,6 +18,19 @@ class ProfileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        val view =  inflater.inflate(R.layout.fragment_profile, container, false)
+
+        initViews(view)
+return  view;
+
+    }
+
+    private fun initViews(view: View) {
+        val timeManage = view.findViewById<LinearLayout>(R.id.timeManagement)
+        timeManage.setOnClickListener {
+            val intent = Intent(requireContext() , TimeManagementActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

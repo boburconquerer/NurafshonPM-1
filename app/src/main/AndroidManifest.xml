@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".TimeManagementActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.activities.login.SignUpActivity"
             android:exported="false" />
         <activity android:name=".Activities.SignInActivity" />
