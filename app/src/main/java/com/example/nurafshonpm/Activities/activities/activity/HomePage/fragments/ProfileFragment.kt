@@ -21,7 +21,7 @@ class ProfileFragment : Fragment() {
         val view =  inflater.inflate(R.layout.fragment_profile, container, false)
 
         initViews(view)
-return  view;
+        return  view;
 
     }
 
