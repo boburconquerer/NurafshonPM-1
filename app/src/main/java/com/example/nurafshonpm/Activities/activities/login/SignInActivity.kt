@@ -13,7 +13,7 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var signInButton: AppCompatButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_sign_in)
 
         initViews()
     }
