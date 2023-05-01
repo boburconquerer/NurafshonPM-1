@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +8,7 @@
     android:background="#9265E1"
     android:orientation="vertical"
     tools:context=".Activities.activities.activity.HomePage.fragments.ProfileFragment">
-
+<!--hege-->
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
