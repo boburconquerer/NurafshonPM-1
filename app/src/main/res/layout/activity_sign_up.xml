@@ -98,7 +98,8 @@
                     android:background="@drawable/roundedbutton"
                     android:text="Sign Up"
                     android:textSize="16dp"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:id="@+id/signUpButton_id"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
