@@ -82,8 +82,8 @@ class HomePage : AppCompatActivity() {
     private fun fragmentData(): ArrayList<Fragment> {
         return arrayListOf(
             HomeFragment(),
-            TimeManageFragment(),
             RatingPageFragment(),
+            TimeManageFragment(),
             ProfileFragment()
         )
     }
