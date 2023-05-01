@@ -1,13 +1,14 @@
-package com.example.nurafshonpm.Activities
+package com.example.nurafshonpm.Activities.activities.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.nurafshonpm.R
 
-//Edit by Paxriddinov
-class SignInActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_main)
+
     }
 }

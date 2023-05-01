@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.avtivities.login.SignInActivity"
+    tools:context=".Activities.SignInActivity"
     android:background="@color/white">
 
     <FrameLayout
@@ -64,6 +64,7 @@
                     tools:ignore="RtlSymmetry" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/signInButton_id"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="60dp"

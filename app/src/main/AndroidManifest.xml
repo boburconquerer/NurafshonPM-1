@@ -12,13 +12,13 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
-            android:exported="false" />
+            android:name=".Activities.activities.login.SignUpActivity"/>
         <activity
-            android:name=".Activities.SignInActivity"
-            android:exported="false" />
+            android:name=".Activities.SignInActivity" />
         <activity
-            android:name=".Activities.MainActivity"
+            android:name=".Activities.activities.activity.HomePage.HomePage"/>
+        <activity
+            android:name=".Activities.activities.login.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
