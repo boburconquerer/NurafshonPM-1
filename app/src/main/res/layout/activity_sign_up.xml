@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_marginTop="40dp"
-                android:text="Create account"
+                android:text="@string/create_account"
                 android:textColor="#2A4079"
                 android:textSize="23sp"
                 android:textStyle="bold" />
@@ -91,7 +91,6 @@
                     android:textColor="#787878"/>
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/signUpButton_id"
                     android:layout_marginTop="60dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -111,14 +110,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Already have an account?"
+                        android:text="@string/already_have_an_account"
                         android:textColor="#A6A4A4"
-                        android:textSize="16dp"/>
+                        android:textSize="16sp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Sign In from here"
-                        android:textSize="16dp"
+                        android:text="@string/sign_in_from_here"
+                        android:textSize="16sp"
                         android:textColor="#2A4079"
                         android:textStyle="bold"
                         android:id="@+id/signInFromHere"

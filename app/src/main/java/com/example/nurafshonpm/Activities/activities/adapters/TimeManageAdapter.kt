@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.example.nurafshonpm.Activities.activities.adapters
 
 import androidx.fragment.app.Fragment
