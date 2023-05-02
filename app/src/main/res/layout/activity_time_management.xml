@@ -7,42 +7,13 @@
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".Activities.activities.activity.profile.TimeManagementActivity">
-
-
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white">
-
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/white"
-            android:elevation="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical|center_horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nurafshon PM"
-                    android:textColor="@color/black"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.appcompat.widget.Toolbar>
-
-    </com.google.android.material.appbar.AppBarLayout>
     <com.google.android.material.tabs.TabLayout
+        android:background="#03A9F4"
         android:id="@+id/timeTbLayout_id"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="wrap_content"
         app:tabGravity="fill"
-        app:tabTextColor="#918D8D"
+        app:tabTextColor="#EDE4E4"
         app:tabSelectedTextColor="@color/black"
         app:tabIndicatorColor="#263DBD"
         tools:ignore="SpeakableTextPresentCheck"
