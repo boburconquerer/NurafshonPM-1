@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
+        <activity android:name=".Activities.activities.activity.EducatorsActivity" />
         <activity android:name=".Activities.activities.activity.profile.TimeManagementActivity" />
         <activity android:name=".Activities.activities.login.SignUpActivity" />
         <activity android:name=".Activities.SignInActivity" />
