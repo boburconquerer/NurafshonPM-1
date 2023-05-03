@@ -5,10 +5,7 @@ import android.os.Bundle
 import com.example.nurafshonpm.R
 
 class EducatorsActivity : AppCompatActivity() {
-<<<<<<< HEAD
-    //MNMBNMJHJH
-=======
->>>>>>> github/master
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_educators)
